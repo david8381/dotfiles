@@ -19,3 +19,11 @@ export PATH="//anaconda/bin:$PATH"
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
 
+
+
+ECHO '************************************************************************'
+ECHO "H M L"
+ECHO "H M L"
+ECHO "H M L"
+ECHO '************************************************************************'
+
