@@ -3,6 +3,8 @@ filetype off
 call pathogen#infect()
 filetype plugin indent on
 
+map <leader>n :NERDTreeToggle<CR>
+
 set wildmenu
 set path+=**
 
