@@ -10,6 +10,8 @@ set path+=**
 
 set nocompatible
 
+set colorcolumn=80
+
 " enable syntax highlighting
 syntax enable
 
@@ -64,8 +66,3 @@ endfunction
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
-
-highlight OverLength ctermbg=blue ctermfg=white guibg=blue
-match OverLength /\%80v.\+/
-
-
