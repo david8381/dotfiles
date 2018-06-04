@@ -26,3 +26,5 @@ ECHO "H M L"
 ECHO "zt zz zb"
 ECHO '************************************************************************'
 
+
+alias fasti=". start_spot_no_swap.sh --ami ami-31ecfb26 --subnetId subnet-cd10d991 --securityGroupId sg-cabe8882"
