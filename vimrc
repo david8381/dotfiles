@@ -48,7 +48,7 @@ set showmatch
 " Show command in bottom bar
 set showcmd
 
-noremap <F2> :set number!<CR>
+noremap <Up> :set number!<CR>
 
 " Because Vim doesn't like
 " " pasting that works.
@@ -66,3 +66,8 @@ endfunction
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
+
+hi MatchParen cterm=none ctermbg=green ctermfg=blue
+
+set noswapfile
+set incsearch
